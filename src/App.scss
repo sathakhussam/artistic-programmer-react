@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #f0f0f0;
+  text-decoration: none;
+}
+
+html,
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.app-title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+// Utilities
+
+.btn {
+  padding: 0.6rem 1.5rem;
+  border-radius: 6px;
+  font-size: 12px;
+  &-primary {
+    background-color: #957fef;
+  }
+}
+
+.txt-bold {
+  font-weight: bold;
+}

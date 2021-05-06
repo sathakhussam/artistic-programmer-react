@@ -1,0 +1,16 @@
+.navbar {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+
+  .logo {
+    h1 {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+  }
+
+  .menu-icon {
+    font-size: 2rem;
+  }
+}

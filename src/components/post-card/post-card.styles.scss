@@ -1,0 +1,47 @@
+.post-card {
+  height: 300px;
+  border-radius: 15px;
+  background: url("../../assets/img/img-01.jpg") center center/cover;
+  position: relative;
+
+  &::after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: 1;
+    border-radius: 15px;
+    background-color: rgba($color: #333, $alpha: 0.45);
+  }
+
+  .save-btn {
+    padding: 0.5rem 0.8rem;
+    background: #957fef;
+    z-index: 2;
+    border-radius: 7px;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    color: white;
+  }
+
+  .text-content {
+    position: absolute;
+    color: #f0f0f0;
+    z-index: 2;
+    bottom: 2rem;
+    left: 2rem;
+
+    h3 {
+      font-size: 24px;
+    }
+    .text-post--info {
+      display: flex;
+      margin: 0 0 1rem 0;
+      justify-content: space-between;
+      p {
+        font-size: 0.8rem;
+      }
+    }
+  }
+}
