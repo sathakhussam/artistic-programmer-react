@@ -9,7 +9,7 @@ class CardComponent extends Component {
         super(props)
 
         this.state = {
-            posts: [{id: uuidv4()}, {id: uuidv4()}, {id: uuidv4()}]
+            posts: [{id: "80e0cbe2-21a2-4e02-8b4c-57de131a9b50"}, {id: "3f9e38b7-7815-40f7-a932-a8c87f0bd45e"}, {id: "eee3744d-252b-4b6c-815d-80faa3c871fa"}]
         }
     }
 
